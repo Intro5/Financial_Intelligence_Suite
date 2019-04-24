@@ -13,7 +13,7 @@ class StockData:
 
 
     def getStockData(self):
-        intrinio_sdk.ApiClient().configuration.api_key['api_key'] = 'YOUR API KEY'
+        intrinio_sdk.ApiClient().configuration.api_key['api_key'] = 'OjlmODA4ZTJjZTQ0ZTIxNTUyYmZjNDY5NTc2MWNmY2Q0'
         security_api = intrinio_sdk.SecurityApi()
 
         page_size = self.dayCount

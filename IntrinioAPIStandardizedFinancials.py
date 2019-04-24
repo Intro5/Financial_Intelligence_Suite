@@ -20,7 +20,7 @@ class FundamentalData:
 
     def getFinancialData(self):
         # link API key
-        intrinio_sdk.ApiClient().configuration.api_key['api_key'] = 'YOUR API KEY'
+        intrinio_sdk.ApiClient().configuration.api_key['api_key'] = 'OjlmODA4ZTJjZTQ0ZTIxNTUyYmZjNDY5NTc2MWNmY2Q0'
 
         fundamentals_api = intrinio_sdk.FundamentalsApi()
         statement_code = ['income_statement', 'balance_sheet_statement', 'cash_flow_statement', 'calculations']
