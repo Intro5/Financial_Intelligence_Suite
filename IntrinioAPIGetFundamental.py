@@ -3,7 +3,7 @@ import time
 import intrinio_sdk
 from intrinio_sdk.rest import ApiException
 
-intrinio_sdk.ApiClient().configuration.api_key['api_key'] = 'OjlmODA4ZTJjZTQ0ZTIxNTUyYmZjNDY5NTc2MWNmY2Q0'
+intrinio_sdk.ApiClient().configuration.api_key['api_key'] = 'YOUR API KEY'
 
 fundamentals_api = intrinio_sdk.FundamentalsApi()
 
