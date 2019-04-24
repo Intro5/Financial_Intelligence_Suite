@@ -24,7 +24,7 @@ def create_table(dataframe, max_rows=30):
         ]) for i in range(min(len(dataframe), max_rows))]
     )
 #############################################################
-## Dash Application ##
+##   Dash Application   ##
 # Dash framwork
 app = dash.Dash(__name__)
 
